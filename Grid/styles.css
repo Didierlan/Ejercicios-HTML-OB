@@ -1,0 +1,18 @@
+.col-xs {
+    background-color: aqua;
+}
+.col-sm-2 {
+    background-color: blue;
+}
+
+.col-md-3 {
+    background-color: blueviolet;
+}
+
+.col-lg-4 {
+    background-color: brown;
+}
+
+.col-xl-6{
+    background-color: chartreuse;
+}
