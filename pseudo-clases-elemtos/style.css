@@ -1,0 +1,11 @@
+button.boton::before{
+    content: "Pasar por encima";
+}
+
+button:active::after{
+    color: white;
+    background-color: green;
+    content: "Hecho";
+
+}
+
