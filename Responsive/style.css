@@ -1,0 +1,39 @@
+.barra {
+    
+    max-width: 10rem;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hijo {
+    border: 0.20rem solid black;
+}
+
+.secion-principal{
+    position: relative; 
+    top: 0; left: 95%; 
+    display: flex;
+    max-width: max-content;
+    flex-direction: row;
+    padding: 0.70rem 1rem;
+    flex-flow:wrap;
+    background-color: chartreuse;
+    /*justify-content: flex-end;*/
+    
+    
+
+}
+
+@media  (max-width: 640px) {
+    .barra{
+        position: relative; 
+        top: 31rem;
+        max-width: max-content;
+        background-color: aqua;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
